@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shreejal Bist | Portfolio</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <h1></h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <img src="assets/profile.jpeg" alt="Shreejal Bist" class="hero-img">
+  <h2>Hi, I'm <span>Shreejal Bist</span></h2>
+  <p>Full Stack Developer | Cybersecurity | Blockchain</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <div class="about-container">
+    <p>
+      I’m currently pursuing a degree in engineering with a strong passion for software development, programming, and blockchain technology. I have hands-on experience with Python, JavaScript, C, and C++, which I use to build projects, solve complex problems, and create innovative solutions. I’m always eager to learn new technologies, expand my skillset, and collaborate on impactful projects that make a difference.
+          I love exploring blockchain applications and integrating them into real-world software solutions, combining my interests in development and cybersecurity. 
+          Feel free to connect — I’m always excited to collaborate and share ideas!
+    </p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill-card"><i class="fab fa-html5"></i><p>HTML</p></div>
+    <div class="skill-card"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+    <div class="skill-card"><i class="fab fa-js"></i><p>JavaScript</p></div>
+    <div class="skill-card"><i class="fab fa-react"></i><p>React</p></div>
+    <div class="skill-card"><i class="fab fa-node-js"></i><p>Node.js</p></div>
+    <div class="skill-card"><i class="fab fa-python"></i><p>Python</p></div>
+    <div class="skill-card"><i class="fas fa-shield-halved"></i><p>Cybersecurity</p></div>
+    <div class="skill-card"><i class="fas fa-link"></i><p>Blockchain</p></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="projects">
+    <div class="card">
+      <h3>Counterfeit Medical Detection Using Blockchain</h3>
+      <p>Blockchain-based system to detect fake medicines.</p>
+      <a href="https://github.com/wakeawakee/PharmaTrace" target="_blank" class="github-btn">
+        <i class="fab fa-github"></i> View Repo
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Hamro-Yatra</h3>
+      <p>Web-based ride sharing platform</p>
+      <a href="https://github.com/wakeawakee/Hamro-Yatra" target="_blank" class="github-btn">
+        <i class="fab fa-github"></i> View Repo
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Pixel Studio</h3>
+      <p>An app built with React and Firebase.</p>
+      <a href="https://github.com/wakeawakee/Pixel-Studio" target="_blank" class="github-btn">
+        <i class="fab fa-github"></i> View Repo
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form 
+    action="https://api.web3forms.com/submit" 
+    method="POST" 
+    class="contact-form"
+  >
+    <!-- Web3Forms API key -->
+    <input type="hidden" name="access_key" value="c9f7f2f5-1799-4639-b2b8-06249289b214">
+
+    <!-- Name input -->
+    <input 
+      type="text" 
+      name="name" 
+      placeholder="Your Name" 
+      required
+    >
+
+    <!-- Email input -->
+    <input 
+      type="email" 
+      name="email" 
+      placeholder="Your Email" 
+      required
+    >
+
+    <!-- Message textarea -->
+    <textarea 
+      name="message" 
+      placeholder="Your Message" 
+      rows="6" 
+      required
+    ></textarea>
+
+    <!-- Submit button -->
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Connect with me</p>
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/shreejal-bist-187a3a347/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/wakeawakee?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://discord.com/users/977937957816270929" target="_blank"><i class="fab fa-discord"></i></a>
+  </div>
+  <p>© All Rights Reserved</p>
+</footer>
+
+
+<div id="toast"></div>
+<!-- SCRIPTS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="scripts.js"></script>
+
+</body>
+</html>
